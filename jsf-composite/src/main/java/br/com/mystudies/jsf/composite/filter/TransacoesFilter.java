@@ -57,6 +57,8 @@ public class TransacoesFilter implements Filter {
 		request.setAttribute("features", features);
 		
 		chain.doFilter(request, response);
+		
+		
 	}
 
 	/**
