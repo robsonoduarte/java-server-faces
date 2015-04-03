@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+
+#header h1,h4{
+	margin: 0px;
+	padding: 0px;
+}
+
+.red{
+	color: red;
+}
+
+.information{	
+	border: 1px solid #5B5B5B;
+	text-align: center;
+	padding: 10px;
+	background-color: #E4E4E4;
+}
