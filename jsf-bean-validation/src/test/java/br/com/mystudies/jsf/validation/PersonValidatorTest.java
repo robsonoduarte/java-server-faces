@@ -1,3 +1,4 @@
+package br.com.mystudies.jsf.validation;
 import static junit.framework.Assert.assertEquals;
 import static org.mockito.MockitoAnnotations.initMocks;
 
@@ -21,6 +22,7 @@ public class PersonValidatorTest {
 	
 	@Mock
 	private UIComponent uiComponent; 
+
 	
 	@Mock
 	private UIInput uiInput;
