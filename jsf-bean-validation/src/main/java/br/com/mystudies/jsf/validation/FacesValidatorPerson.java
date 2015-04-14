@@ -1,3 +1,4 @@
+package br.com.mystudies.jsf.validation;
 
 import java.util.Set;
 
