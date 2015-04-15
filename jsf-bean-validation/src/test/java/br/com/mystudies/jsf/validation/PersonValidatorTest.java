@@ -51,6 +51,10 @@ public class PersonValidatorTest {
 		
 		assertEquals(htmlInputText.getStyleClass(), "error");
 	}
+	
+	@Test(/*expected=ValidatorException.class*/)
+	public void test2() {	
+	}	
 
 	
 }
