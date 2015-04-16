@@ -7,6 +7,7 @@ public class Person {
 
 	@NotNull
 	private String name;
+	
 	@Min(value=1)
 	private Integer age;
 	
