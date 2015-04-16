@@ -6,6 +6,7 @@
                 xmlns:f="http://java.sun.com/jsf/core">
 
 
+
 	<ui:define name="content">
 		<h:form id="form" styleClass="form-inline">
 			<div class="panel panel-default" >
@@ -23,18 +24,15 @@
 			                    <div class="form-group">
 		
 				                    <div class="form-group">
-					                    <h:outputLabel value="Name" for="name"/> <br/>
-					                    <h:inputText value="#{personMB.person.name}"  styleClass="form-control" id="name" maxlength="3" size="7"  >	
-					                    	<f:validateBean />
-					                    </h:inputText>
+					                    <h:outputLabel styleClass="control-label" value="Name" for="name"/> <br/>
+					                    <h:inputText value="#{personMB.person.name}"  styleClass="form-control" id="name" maxlength="50" size="50"  validator="validatorPerson"/>
 				                    </div>
 				                    
 				                    <div class="form-group">
-			                    		<h:outputLabel value="Age" for="age"/> <br/>
-			                    		<h:inputText value="#{personMB.person.age}"  styleClass="form-control" id="age" maxlength="4" size="7" /> 
+			                    		<h:outputLabel styleClass="control-label" value="Age" for="age"/> <br/>
+			                    		<h:inputText value="#{personMB.person.age}"  styleClass="form-control" id="age" maxlength="4" size="7" validator="validatorPerson" /> 
 			                    	</div>		                    	                    	
 			                    </div>
-			                    <h:messages />
 			                </fieldset>      
 			            </div>
 			        </div>
