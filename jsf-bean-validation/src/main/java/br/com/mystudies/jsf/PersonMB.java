@@ -9,6 +9,7 @@ public class PersonMB {
 
 	public Person person = new Person();
 
+	private String teste;
 	
 	public void save(){
 		
