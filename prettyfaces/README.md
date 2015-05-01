@@ -5,6 +5,5 @@ JSF + PRETTYFACES
 
 --------------------------------------------
   
-  >  
-  [PrettyFaces] (http://www.ocpsoft.org/prettyfaces/)
+  >  [PrettyFaces] (http://www.ocpsoft.org/prettyfaces/)
  
